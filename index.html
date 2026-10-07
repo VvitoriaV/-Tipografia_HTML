@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um guia visual e simples sobre tipografia na web, criado por Vitória Pereira da Silva."
+    />
+    <meta name="author" content="Vitória Pereira da Silva" />
+    <meta name="theme-color" content="#f4efe7" />
+    <title>Tipos & Letras — Vitória Pereira da Silva</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body id="topo">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="brand" href="#topo" aria-label="Tipos e Letras — início">
+        <span class="brand-mark" aria-hidden="true">V</span>
+        <span>Tipos <i>&</i> Letras</span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <a href="#fundamentos">Fundamentos</a>
+        <a href="#familias">Famílias</a>
+        <a href="#pratica">Na prática</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" aria-labelledby="titulo-principal">
+        <div class="hero-copy">
+          <p class="eyebrow">Guia visual de Vitória Pereira da Silva</p>
+          <h1 id="titulo-principal">
+            A tipografia dá<br />
+            <em>voz</em> às palavras.
+          </h1>
+          <p class="hero-text">
+            Fontes não servem apenas para deixar um texto bonito. Elas organizam
+            informações, criam personalidade e ajudam cada mensagem a ser lida do
+            jeito certo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#familias">Explorar estilos</a>
+            <a class="button button-secondary" href="#pratica">Ver boas práticas</a>
+          </div>
+        </div>
+
+        <div class="type-poster" aria-label="Composição visual com letras">
+          <span class="poster-label">forma + função</span>
+          <span class="poster-serif">Aa</span>
+          <span class="poster-sans">Tipografia</span>
+          <span class="poster-code">font-family: significado;</span>
+          <span class="poster-orbit" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <div class="type-ribbon" aria-hidden="true">
+        <div>
+          <span>Serifada</span><b>✦</b><span>Sem serifa</span><b>✦</b>
+          <span>Monoespaçada</span><b>✦</b><span>Display</span><b>✦</b>
+          <span>Serifada</span><b>✦</b><span>Sem serifa</span><b>✦</b>
+          <span>Monoespaçada</span><b>✦</b><span>Display</span><b>✦</b>
+        </div>
+      </div>
+
+      <section class="section intro-section" id="fundamentos">
+        <div class="section-heading">
+          <p class="eyebrow">01 — Fundamentos</p>
+          <h2>Escolher uma fonte é escolher um tom de voz.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Tipografia é a arte de organizar letras para tornar a comunicação
+            <strong>clara, legível e expressiva</strong>. Em HTML, os elementos dão
+            estrutura ao conteúdo; no CSS, definimos como cada texto aparece.
+          </p>
+          <div class="code-line" aria-label="Exemplo de código HTML">
+            <span>&lt;h1&gt;</span>Sua ideia mais importante<span>&lt;/h1&gt;</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section family-section" id="familias" aria-labelledby="familias-titulo">
+        <div class="section-heading compact">
+          <p class="eyebrow">02 — Famílias tipográficas</p>
+          <h2 id="familias-titulo">Quatro jeitos de contar uma história.</h2>
+          <p>
+            Passe o cursor pelos cartões — ou toque neles — para perceber como a
+            personalidade muda mesmo quando a frase continua igual.
+          </p>
+        </div>
+
+        <div class="type-grid">
+          <article class="type-card serif-card">
+            <div class="card-topline"><span>01</span><span>Clássica</span></div>
+            <p class="type-sample">Elegância que atravessa o tempo.</p>
+            <div class="card-copy">
+              <h3>Serifada</h3>
+              <p>
+                Possui pequenos prolongamentos nas letras. Transmite tradição e é
+                muito usada em livros, editoriais e marcas refinadas.
+              </p>
+              <code>font-family: Georgia, serif;</code>
+            </div>
+          </article>
+
+          <article class="type-card sans-card">
+            <div class="card-topline"><span>02</span><span>Direta</span></div>
+            <p class="type-sample">Clareza para ideias modernas.</p>
+            <div class="card-copy">
+              <h3>Sem serifa</h3>
+              <p>
+                Tem formas limpas e objetivas. Funciona muito bem em telas,
+                interfaces, textos curtos e projetos contemporâneos.
+              </p>
+              <code>font-family: Arial, sans-serif;</code>
+            </div>
+          </article>
+
+          <article class="type-card mono-card">
+            <div class="card-topline"><span>03</span><span>Técnica</span></div>
+            <p class="type-sample">Cada caractere ocupa seu espaço.</p>
+            <div class="card-copy">
+              <h3>Monoespaçada</h3>
+              <p>
+                Todas as letras têm a mesma largura. É associada a código,
+                tecnologia, máquinas de escrever e dados.
+              </p>
+              <code>font-family: Consolas, monospace;</code>
+            </div>
+          </article>
+
+          <article class="type-card display-card">
+            <div class="card-topline"><span>04</span><span>Expressiva</span></div>
+            <p class="type-sample">Feita para chamar atenção!</p>
+            <div class="card-copy">
+              <h3>Display</h3>
+              <p>
+                Marcante e cheia de personalidade. Ideal para títulos, cartazes e
+                destaques — mas deve ser usada com moderação.
+              </p>
+              <code>font-family: Impact, fantasy;</code>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section hierarchy-section" aria-labelledby="hierarquia-titulo">
+        <div class="hierarchy-demo" aria-label="Exemplo de hierarquia tipográfica">
+          <p class="demo-kicker">REVISTA CRIATIVA · Nº 08</p>
+          <h3>Ideias ganham forma quando encontram ritmo.</h3>
+          <p class="demo-lead">
+            Tamanho, peso e espaço conduzem o olhar pelo conteúdo.
+          </p>
+          <p class="demo-body">
+            Uma boa hierarquia mostra primeiro o que é essencial e depois oferece
+            detalhes no ritmo certo.
+          </p>
+          <p class="demo-caption">Design & linguagem — 4 min de leitura</p>
+        </div>
+
+        <div class="hierarchy-copy">
+          <p class="eyebrow">03 — Hierarquia</p>
+          <h2 id="hierarquia-titulo">Ajude o olhar a encontrar o caminho.</h2>
+          <p>
+            Uma página clara combina níveis de informação. O título chama, o
+            subtítulo contextualiza e o corpo desenvolve a ideia sem cansar.
+          </p>
+          <ol class="principles">
+            <li><span>Contraste</span>Altere tamanho, peso ou cor para diferenciar.</li>
+            <li><span>Respiro</span>Use espaço para separar e agrupar informações.</li>
+            <li><span>Consistência</span>Repita padrões para facilitar a leitura.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section practice-section" id="pratica" aria-labelledby="pratica-titulo">
+        <div class="section-heading compact">
+          <p class="eyebrow">04 — Na prática</p>
+          <h2 id="pratica-titulo">Pequenas escolhas, grandes diferenças.</h2>
+        </div>
+
+        <div class="practice-layout">
+          <div class="practice-note">
+            <span class="giant-quote" aria-hidden="true">“</span>
+            <blockquote>
+              Boa tipografia não disputa atenção com a mensagem. Ela faz a mensagem
+              parecer inevitável.
+            </blockquote>
+            <p>Uma ideia para levar ao próximo projeto.</p>
+          </div>
+
+          <div class="accordion">
+            <details open>
+              <summary>Quantas fontes devo usar?</summary>
+              <p>
+                Duas costumam ser suficientes: uma com personalidade para os títulos
+                e outra simples para os textos. Uma única família, variando pesos,
+                também funciona muito bem.
+              </p>
+            </details>
+            <details>
+              <summary>Como criar uma lista segura no CSS?</summary>
+              <p>
+                Liste a fonte desejada e depois alternativas. Exemplo:
+                <code>font-family: Inter, Arial, sans-serif;</code>. Se a primeira não
+                existir, o navegador usa a próxima.
+              </p>
+            </details>
+            <details>
+              <summary>O que melhora a leitura?</summary>
+              <p>
+                Corpo com pelo menos 16px, bom contraste, linhas com cerca de 45 a 75
+                caracteres e espaçamento entre linhas por volta de 1.5 são ótimos
+                pontos de partida.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="fechamento-titulo">
+        <p class="eyebrow">Agora é com você, Vitória Pereira da Silva.</p>
+        <h2 id="fechamento-titulo">Toda palavra merece uma boa forma.</h2>
+        <a class="button button-light" href="#topo">Voltar ao início ↑</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Tipos & Letras · Um projeto simples sobre tipografia.</p>
+      <p>Autoria: Vitória Pereira da Silva <span aria-hidden="true">✦</span></p>
+    </footer>
+  </body>
+</html>

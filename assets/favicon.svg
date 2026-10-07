@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">V de Vitória Pereira da Silva</title>
+  <rect width="64" height="64" rx="18" fill="#2746d8"/>
+  <circle cx="52" cy="12" r="11" fill="#ff6b35"/>
+  <path d="M14 15h11l7 27 7-27h11L38 50H26L14 15Z" fill="#fffdf9"/>
+  <path d="M25.5 52h13" stroke="#f5d547" stroke-width="4" stroke-linecap="round"/>
+</svg>
